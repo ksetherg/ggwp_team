@@ -121,7 +121,7 @@ class Reccommender():
         return acc
 
     def fit(self, train):
-        fit_city_acc = self.fit_city(train)
+#         fit_city_acc = self.fit_city(train)
         meal_acc = self.fit_clf_meal(train)
         star_acc = self.fit_clf_star(train)
         dur_rmse, dur_mae = self.fit_reg_dur(train)
